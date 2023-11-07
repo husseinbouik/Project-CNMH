@@ -1,5 +1,5 @@
 # Validation Branche fonctionnelle
-## remarque a fair :
+## Travaille a faire :
 - User storie 
 - creation charte graphique de presentation  
 -  Appliquer la charte graphique dans le theme de presentation 
