@@ -19,5 +19,8 @@
 [CNMH Logo ](https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDNUqU1PnJgkvU3MgHGrSrUZ_9sQnnS41e5pPiXENGgzcb3RegIyv5B6uyTNh63FAFOVIB_ThhiSTm1XnI8Xpe1FRZXF5EkIT4MdE3qwejzWkA=s512)
 
 [Solicode Logo ](https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDNUqU1PnJgkvU3MgHGrSrUZ_9sQnnS41e5pPiXENGgzcb3RegIyv5B6uyTNh63FAFOVIB_ThhiSTm1XnI8Xpe1FRZXF5EkIT4MdE3qwejzWkA=s512)
+
 [OFPPT Logo ](https://lh3.googleusercontent.com/keep-bbsk/AG3SVnDNUqU1PnJgkvU3MgHGrSrUZ_9sQnnS41e5pPiXENGgzcb3RegIyv5B6uyTNh63FAFOVIB_ThhiSTm1XnI8Xpe1FRZXF5EkIT4MdE3qwejzWkA=s512)
+
+
 [All used logos](https://docs.google.com/document/d/1WfMe91BvddGaOmxz0usR-dpOietgO5iYy1aYWl-gw2s/edit?usp=sharing)
