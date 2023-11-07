@@ -9,9 +9,12 @@
 [branche fonctionnelle](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit?usp=sharing)
 
 
-# Theme Presentation
+# Charte graphique
+[color palette](https://color.adobe.com/fr/color-CNMH-color-theme-32a982d6-5bf4-4708-b092-b9ac12dde441/) 
 
 [charte graphique](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit?usp=sharing)
+
+# Theme Presentation
 
 [Theme presentation](https://docs.google.com/presentation/d/1iipkAvkR68LQkmU8Gks_kWtWpdhh0VEgranMk800MWM/edit?usp=sharing)
 
