@@ -2,6 +2,8 @@
 
 Welcome to the technical branch of our Laravel project. This document serves as a guide to the work that needs to be done in this branch. It outlines the key tasks, goals, and standards to follow.
 
+[Rapport branch Technique](https://docs.google.com/document/d/1PmwBmz1MMWuG4udm2-E9DZZDb5Ed-S6k0Tz-EpK0B2E/edit?usp=sharing)</br>
+
 ## Tasks
 
 ### 1. Autoformation Laravel
