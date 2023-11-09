@@ -10,7 +10,7 @@
 
 
 # Charte graphique
-[color palette](https://color.adobe.com/fr/boom-color-theme-9a19b0ba-edea-435a-8b8c-62316972504c/) 
+[color palette](https://color.adobe.com/fr/boom-color-theme-e5b902a2-489c-4d16-818c-2f609a4ed0e6/) 
 
 [charte graphique](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit?usp=sharing)
 
