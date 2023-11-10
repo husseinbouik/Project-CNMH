@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Simple Tables</title>
 
+
+
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -27,13 +29,14 @@
     <link rel="stylesheet" href="../assets/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="../assets/plugins/summernote/summernote-bs4.min.css">
+    <script src="https://cdn.tiny.cloud/1/d2nq8cur7uv9c3ovyevwee5l5e5k2ym6hodsnpuuy1hyy1yf/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 
-
-    
 </head>
 <body class="hold-transition sidebar-mini">
   <div class="wrapper">
 
+
+    
  <!-- Navbar -->
 <!-- Navbar -->
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -43,7 +46,7 @@
       <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
-      <a href="#" class="nav-link">Home</a>
+      <a href="index.html" class="nav-link">Home</a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
       <a href="#" class="nav-link">Contact</a>
@@ -81,14 +84,20 @@
                     <!-- Add your sidebar menu items here -->
                     <li class="nav-item">
                       <a href="#" class="nav-link active">
-                        <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Change the class to "fas fa-chalkboard-teacher" -->
-                          <p>Gestion des Projets</p>
+                          <i class="nav-icon fas fa-users"></i> <!-- Change the class to "fas fa-users" -->
+                          <p>Gestion des compétences</p>
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="GestionMembres.html" class="nav-link">
-                          <i class="nav-icon fas fa-users"></i> <!-- Change the class to "fas fa-users" -->
-                          <p>Gestions des Membres</p>
+                      <a href="#" class="nav-link">
+                          <i class="nav-icon fas fa-chart-line"></i> <!-- Change the class to "fas fa-chart-line" -->
+                          <p>Gestions des niveaux</p>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">
+                          <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Change the class to "fas fa-chalkboard-teacher" -->
+                          <p>Gestions des formateurs</p>
                       </a>
                   </li>
                   
@@ -103,132 +112,56 @@
 
     <!-- Content Wrapper -->
     <div class="content-wrapper">
-
-      <a class="btn btn-app bg-secondary mt-2" href="add-edit.html" speechify-initial-font-size="12px">
-        <i class="fas fa-plus" speechify-initial-font-size="20px"></i> ajouter
-    </a>
-            <div class="card mx-2">
-                            <!-- /.card-header -->
-              <div class="card-header">
-                <h2 class="card-title">Gestion des Projets</h2>
-
-                <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card-body p-0">
-                <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                  <th>Id</th>
-                  <th>Name</th>
-                  <th>Description</th>
-                  <th>Start Date</th>
-                  <th>End Date</th>
-                  <th>Tasks</th>
-                  <th>Action</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                  <td>1</td>
-                  <td>Développer la première fonctionnalité du projet</td>
-                  <td>description</td>
-                  <td>2023-11-10</td>
-                  <td>2023-11-15</td>
-                  <td><div class="btn-group">
-                    <a href="GestionTaches.html" class="btn btn-primary mx-2">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div></td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  <tr>
-                  <td>2</td>
-                  <td>Développer la deuxième fonctionnalité du projet</td>
-                  <td>description</td>
-                  <td>2023-11-16</td>
-                  <td>2023-11-22</td>
-                  <td><div class="btn-group">
-                    <a href="GestionTaches.html" class="btn btn-primary mx-2">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div></td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  <tr>
-                  <td>3</td>
-                  <td>Développer la troisième fonctionnalité du projet</td>
-                  <td>description</td>
-                  <td>2023-11-23</td>
-                  <td>2023-11-29</td>
-                  <td><div class="btn-group">
-                    <a href="GestionTaches.html" class="btn btn-primary mx-2">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div></td>
-                  <!-- <td>Utilisateur 5, Utilisateur 6</td> -->
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  
-              </div>
-<!-- /.card-body -->
-<div class="card-footer clearfix">
-  <ul class="pagination pagination-sm m-0 float-right">
-    <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-  </ul>
-</div>
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title"> ajouter/modifier competence</h3>
             </div>
-            <!-- /.card -->
+            <div class="card-body">
+                <form>
+                    <!-- Reference -->
+                    <div class="form-group">
+                        <label for="reference">Reference<span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="reference" name="reference" placeholder="Enter reference">
+                    </div>
+        
+                    <!-- Code -->
+                    <div class="form-group">
+                        <label for="code">Code</label>
+                        <input type="text" class="form-control" id="code" name="code" placeholder="Enter code">
+                    </div>
+        
+                    <!-- Nom -->
+                    <div class="form-group">
+                        <label for="nom">Nom<span class="text-red">*</span></label>
+                        <input type="text" class="form-control" id="nom" name="nom" placeholder="Enter nom">
+                    </div>
+        
+                    <!-- Description -->
+<div class="form-group">
+    <label for="description">Description</label>
+    <textarea id="description" name="description"></textarea>
+</div>
 
-
-            <!-- /.card -->
-          </div>   
-  
+        
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
+        
     <!-- Footer (Optional) -->
     <footer class="main-footer">
-  hello everybodyyyyy
+        <!-- Add your footer content here -->
     </footer>
+</div>
+<script>
+    tinymce.init({
+        selector: 'textarea#description',
+        plugins: 'link image code',
+        toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | link image | code',
+        menubar: false,
+    });
+</script>
 
 <!-- ./wrapper -->
 
