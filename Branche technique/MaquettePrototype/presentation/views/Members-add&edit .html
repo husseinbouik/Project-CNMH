@@ -107,52 +107,53 @@
     <div class="content-wrapper">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title"> ajouter/modifier competence</h3>
+                <h3 class="card-title"> ajouter/modifier un membre</h3>
             </div>
             <div class="card-body">
-                <form>
-                  <!-- Id (hidden field for editing existing items) -->
-                  <div class="form-group">
-                      <label for="taskId">Identifiant</label>
-                      <input type="text" class="form-control" id="taskId" name="taskId" placeholder="Enter Id" readonly>
-                  </div>
-              
-                  <!-- Name -->
-                  <div class="form-group">
-                      <label for="taskName">Nom<span class="text-red">*</span></label>
-                      <input type="text" class="form-control" id="taskName" name="taskName" placeholder="Enter Name">
-                  </div>
-                    <!-- Start Date -->
-                    <div class="form-group">
-                      <label for="startDate">Date de début<span class="text-red">*</span></label>
-                      <input type="date" class="form-control" id="startDate" name="startDate">
-                  </div>
-              
-                  <!-- End Date -->
-                  <div class="form-group">
-                      <label for="endDate">Date de fin<span class="text-red">*</span></label>
-                      <input type="date" class="form-control" id="endDate" name="endDate">
-                  </div>
-
-                  <!-- Description -->
-                  <div class="form-group">
-                      <label for="taskDescription">Description</label>
-                      <textarea id="description" name="description"></textarea>
-                  </div>   
+              <form>
+                <!-- Id (hidden field for editing existing items) -->
+                <div class="form-group">
+                    <label for="userId">Id</label>
+                    <input type="text" class="form-control" id="userId" name="userId" placeholder="Enter Id" readonly>
+                </div>
             
-              
-                  <!-- Tasks (optional, as it seems to be generated automatically) -->
-                  <!-- <div class="form-group">
-                      <label for="tasks">Tasks</label>
-                      <input type="text" class="form-control" id="tasks" name="tasks" placeholder="Enter Tasks">
-                  </div> -->
-              
-                  <!-- Action buttons -->
-                  <div class="form-group">
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                      <a type="button" href="index.html" class="btn btn-secondary" id="clearForm">Clear</a>
-                  </div>
-              </form>
+                <!-- First Name -->
+                <div class="form-group">
+                    <label for="firstName">Prenom<span class="text-red">*</span></label>
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter First Name">
+                </div>
+            
+                <!-- Last Name -->
+                <div class="form-group">
+                    <label for="lastName">Nom<span class="text-red">*</span></label>
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter Last Name">
+                </div>
+            
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email<span class="text-red">*</span></label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email">
+                </div>
+            
+                <!-- Role -->
+                <div class="form-group">
+                    <label for="role">Role<span class="text-red">*</span></label>
+                    <input type="text" class="form-control" id="role" name="role" placeholder="Enter Role">
+                </div>
+            
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Mot de passe<span class="text-red">*</span></label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter Password">
+                </div>
+            
+                <!-- Action buttons -->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a type="button" href="GestionMembres.html" class="btn btn-secondary" id="clearForm">Clear</a>
+                </div>
+            </form>
+            
               
             </div>
         </div>
