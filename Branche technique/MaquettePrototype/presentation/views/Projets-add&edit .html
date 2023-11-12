@@ -46,7 +46,7 @@
       <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
-      <a href="index.html" class="nav-link">Home</a>
+      <a href="../../index3.html" class="nav-link">Home</a>
     </li>
     <li class="nav-item d-none d-sm-inline-block">
       <a href="#" class="nav-link">Contact</a>
@@ -83,21 +83,15 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Add your sidebar menu items here -->
                     <li class="nav-item">
-                      <a href="#" class="nav-link active">
+                      <a href="index.html" class="nav-link active">
+                        <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Change the class to "fas fa-chalkboard-teacher" -->
+                          <p>Gestion des Projets</p>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link ">
                           <i class="nav-icon fas fa-users"></i> <!-- Change the class to "fas fa-users" -->
-                          <p>Gestion des compétences</p>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-chart-line"></i> <!-- Change the class to "fas fa-chart-line" -->
-                          <p>Gestions des niveaux</p>
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#" class="nav-link">
-                          <i class="nav-icon fas fa-chalkboard-teacher"></i> <!-- Change the class to "fas fa-chalkboard-teacher" -->
-                          <p>Gestions des formateurs</p>
+                          <p>Gestions des Membres</p>
                       </a>
                   </li>
                   
@@ -109,7 +103,6 @@
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
-
     <!-- Content Wrapper -->
     <div class="content-wrapper">
         <div class="card">
@@ -118,34 +111,49 @@
             </div>
             <div class="card-body">
                 <form>
-                    <!-- Reference -->
+                  <!-- Id (hidden field for editing existing items) -->
+                  <div class="form-group">
+                      <label for="taskId">Identifiant</label>
+                      <input type="text" class="form-control" id="taskId" name="taskId" placeholder="Enter Id" readonly>
+                  </div>
+              
+                  <!-- Name -->
+                  <div class="form-group">
+                      <label for="taskName">Nom<span class="text-red">*</span></label>
+                      <input type="text" class="form-control" id="taskName" name="taskName" placeholder="Enter Name">
+                  </div>
+                    <!-- Start Date -->
                     <div class="form-group">
-                        <label for="reference">Reference<span class="text-red">*</span></label>
-                        <input type="text" class="form-control" id="reference" name="reference" placeholder="Enter reference">
-                    </div>
-        
-                    <!-- Code -->
-                    <div class="form-group">
-                        <label for="code">Code</label>
-                        <input type="text" class="form-control" id="code" name="code" placeholder="Enter code">
-                    </div>
-        
-                    <!-- Nom -->
-                    <div class="form-group">
-                        <label for="nom">Nom<span class="text-red">*</span></label>
-                        <input type="text" class="form-control" id="nom" name="nom" placeholder="Enter nom">
-                    </div>
-        
-                    <!-- Description -->
-<div class="form-group">
-    <label for="description">Description</label>
-    <textarea id="description" name="description"></textarea>
-</div>
+                      <label for="startDate">Date de début<span class="text-red">*</span></label>
+                      <input type="date" class="form-control" id="startDate" name="startDate">
+                  </div>
+              
+                  <!-- End Date -->
+                  <div class="form-group">
+                      <label for="endDate">Date de fin<span class="text-red">*</span></label>
+                      <input type="date" class="form-control" id="endDate" name="endDate">
+                  </div>
 
-        
-                    <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                  <!-- Description -->
+                  <div class="form-group">
+                      <label for="taskDescription">Description</label>
+                      <textarea id="description" name="description"></textarea>
+                  </div>   
+            
+              
+                  <!-- Tasks (optional, as it seems to be generated automatically) -->
+                  <!-- <div class="form-group">
+                      <label for="tasks">Tasks</label>
+                      <input type="text" class="form-control" id="tasks" name="tasks" placeholder="Enter Tasks">
+                  </div> -->
+              
+                  <!-- Action buttons -->
+                  <div class="form-group">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <a type="button" href="index.html" class="btn btn-secondary" id="clearForm">Clear</a>
+                  </div>
+              </form>
+              
             </div>
         </div>
         

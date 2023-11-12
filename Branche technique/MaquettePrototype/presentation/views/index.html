@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="../assets/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Theme style -->
   <link rel="stylesheet" href="../assets/css/adminlte.min.css">
     <!-- Ionicons -->
@@ -27,6 +28,8 @@
     <link rel="stylesheet" href="../assets/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="../assets/plugins/summernote/summernote-bs4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-GLhlTQ8iUNiNlZDkQ8J+5F8BSvcUDeKuFm12aPnbndFfP0D+2Q/OJmR32PQnkt-" crossorigin="anonymous">
+
 
 
     
@@ -100,131 +103,154 @@
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
-
+  <div class="wrapper">
     <!-- Content Wrapper -->
     <div class="content-wrapper">
-
-      <a class="btn btn-app bg-secondary mt-2" href="add-edit.html" speechify-initial-font-size="12px">
-        <i class="fas fa-plus" speechify-initial-font-size="20px"></i> ajouter
-    </a>
-            <div class="card mx-2">
-                            <!-- /.card-header -->
+      <div class="content-header">
+        <section class="content">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Gestion des Patients</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+     
+      </div>
+    <div class="card ">
               <div class="card-header">
-                <h2 class="card-title">Gestion des Projets</h2>
 
-                <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
+                <div class="col-sm-12 d-flex justify-content-between p-3">
+                    <div class="d-flex justify-content-between">
+                        <a href="Projets-add&edit .html" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                     </div>
-                  </div>
+      
+                    <!-- SEARCH FORM -->
+                    <form class="form-inline ml-3">
+                        <div class="input-group input-group-sm">
+      
+                            <input type="search" class="form-control form-control-lg" placeholder="Recherche">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-lg btn-default">
+                                    <i class="fa fa-search"></i>
+                                </button>
+      
+                            </div>
+                        </div>
+                    </form>
+             
                 </div>
-              </div>
+            </div>
+              <!-- /.card-header -->
               <div class="card-body p-0">
                 <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                  <th>Id</th>
-                  <th>Name</th>
-                  <th>Description</th>
-                  <th>Start Date</th>
-                  <th>End Date</th>
-                  <th>Tasks</th>
-                  <th>Action</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                  <td>1</td>
-                  <td>Développer la première fonctionnalité du projet</td>
-                  <td>description</td>
-                  <td>2023-11-10</td>
-                  <td>2023-11-15</td>
-                  <td><div class="btn-group">
-                    <a href="GestionTaches.html" class="btn btn-primary mx-2">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div></td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  <tr>
-                  <td>2</td>
-                  <td>Développer la deuxième fonctionnalité du projet</td>
-                  <td>description</td>
-                  <td>2023-11-16</td>
-                  <td>2023-11-22</td>
-                  <td><div class="btn-group">
-                    <a href="GestionTaches.html" class="btn btn-primary mx-2">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div></td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  <tr>
-                  <td>3</td>
-                  <td>Développer la troisième fonctionnalité du projet</td>
-                  <td>description</td>
-                  <td>2023-11-23</td>
-                  <td>2023-11-29</td>
-                  <td><div class="btn-group">
-                    <a href="GestionTaches.html" class="btn btn-primary mx-2">
-                      <i class="fas fa-eye"></i>
-                    </a>
-                  </div></td>
-                  <!-- <td>Utilisateur 5, Utilisateur 6</td> -->
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  
+                  <table class="table table-bordered table-striped ">
+                    <thead>
+                    <tr>
+                    <th data-sort="Id">Identifiant
+                      <!-- <i class="fas fa-sort"></i> -->
+                    </th>
+                    <th data-sort="Name">Nom
+                      <!-- <i class="fas fa-sort"></i> -->
+                    </th>
+                    <th data-sort="Description">Description
+                      <!-- <i class="fas fa-sort"></i> -->
+                    </th>
+                    <th data-sort="Start Date">Date de début
+                      <i class="fas fa-sort"></i>
+                    </th>
+                    <th data-sort="End Date">Date de fin
+                      <i class="fas fa-sort"></i>
+                    </th>
+                    <th>Tâches</th>
+                    <th>Action</th>
+                    
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Développer la première fonctionnalité du projet</td>
+                    <td>description</td>
+                    <td>2023-11-10</td>
+                    <td>2023-11-15</td>
+                    <td><div class="btn-group">
+                      <a href="GestionTaches.html" class="btn btn-primary mx-2">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div></td>
+                    <td class="project-actions text-right">
+                      <a class="btn btn-info btn-sm" href="Projets-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                  </td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>Développer la deuxième fonctionnalité du projet</td>
+                    <td>description</td>
+                    <td>2023-11-16</td>
+                    <td>2023-11-22</td>
+                    <td><div class="btn-group">
+                      <a href="GestionTaches.html" class="btn btn-primary mx-2">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div></td>
+                    <td class="project-actions text-right">
+                      <a class="btn btn-info btn-sm" href="Projets-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                  </td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Développer la troisième fonctionnalité du projet</td>
+                    <td>description</td>
+                    <td>2023-11-23</td>
+                    <td>2023-11-29</td>
+                    <td><div class="btn-group">
+                      <a href="GestionTaches.html" class="btn btn-primary mx-2">
+                        <i class="fas fa-eye"></i>
+                      </a>
+                    </div></td>
+                    <!-- <td>Utilisateur 5, Utilisateur 6</td> -->
+                    <td class="project-actions text-right">
+                      <a class="btn btn-info btn-sm" href="Projets-add&edit .html"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                  </td>
+                    </tr>
+                    </tbody>
+                    </table>            
               </div>
-<!-- /.card-body -->
-<div class="card-footer clearfix">
-  <ul class="pagination pagination-sm m-0 float-right">
-    <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-  </ul>
-</div>
-            </div>
-            <!-- /.card -->
-
-
+              <div class="card-header row">
+                <div class="float-right col-md-6">
+                    <ul class="pagination pagination my-0">
+                        <li class="page-item"><a class="page-link" href="#">«</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">»</a></li>
+                    </ul>
+                </div>
+                <div class="float-left col-md-6 d-flex justify-content-end" style="align-items: center; ">
+                    <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
+                        <i class="fas fa-download"></i> export_pdf
+                    </button> -->
+                    <button type="button" class="btn btn-default mr-2 swalDefaultQuestion">
+                        <i class="fas fa-download"></i> export
+                    </button>
+                    <button type="button" class="btn btn-default swalDefaultQuestion">
+                        <i class="fas fa-file-import"></i> import
+                    </button>
+                </div>      
+              </div>
             <!-- /.card -->
           </div>   
   
-        </div>
+    </div>
+    </div>
+  </div><!-- /.container-fluid -->
+  </section>
+  </div>
+    <!-- Content Wrapper -->
+
     <!-- Footer (Optional) -->
     <footer class="main-footer">
   hello everybodyyyyy

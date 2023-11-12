@@ -100,117 +100,117 @@
   <aside class="control-sidebar control-sidebar-dark">
     <!-- Control sidebar content goes here -->
   </aside>
-
+  <div class="wrapper">
     <!-- Content Wrapper -->
     <div class="content-wrapper">
-
-      <a class="btn btn-app bg-secondary mt-2" href="add-edit.html" speechify-initial-font-size="12px">
-        <i class="fas fa-plus" speechify-initial-font-size="20px"></i> ajouter
-    </a>
-            <div class="card mx-2">
-                            <!-- /.card-header -->
+      <div class="content-header">
+        <section class="content">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0">Gestion des Patients</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+     
+      </div>
+    <div class="card ">
               <div class="card-header">
-                <h2 class="card-title">Gestions des Membres</h2>
 
-                <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
+                <div class="col-sm-12 d-flex justify-content-between p-3">
+                    <div class="d-flex justify-content-between">
+                        <a href="Taches-add&edit.html" class="btn btn-primary"><i class="fa fa-plus"></i> </a>
                     </div>
-                  </div>
+      
+                    <!-- SEARCH FORM -->
+                    <form class="form-inline ml-3">
+                        <div class="input-group input-group-sm">
+      
+                            <input type="search" class="form-control form-control-lg" placeholder="Recherche">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-lg btn-default">
+                                    <i class="fa fa-search"></i>
+                                </button>
+      
+                            </div>
+                        </div>
+                    </form>
                 </div>
-              </div>
+            </div>
+              <!-- /.card-header -->
               <div class="card-body p-0">
                 <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                  <thead>
-                  <tr>
-                  <th>Id</th>
-                  <th>Prenom</th>
-                  <th>Nom</th>
-                  <th>Email</th>
-                  <th>Role</th>
-                  <th>Mot de passe</th>
-                  <th>Action</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                  <td>1</td>
-                  <td>hussein</td>
-                  <td>Bouik</td>
-                  <td>bouik.hussein.solicode@gmail.com</td>
-                  <td>student</td>
-                  <td>**************</td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  <tr>
-                  <td>2</td>
-                  <td>hussein</td>
-                  <td>Bouik</td>
-                  <td>bouik.hussein.solicode@gmail.com</td>
-                  <td>student</td>
-                  <td>**************</td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  <tr>
-                  <td>3</td>
-                  <td>hussein</td>
-                  <td>Bouik</td>
-                  <td>bouik.hussein.solicode@gmail.com</td>
-                  <td>student</td>
-                  <td>**************</td>
-                  <td>   <div class="btn-group">
-                    <a href="add-edit.html" class="btn btn-warning mx-2">
-                      <i class="fas fa-edit"></i>
-                    </a>
-                    <a href="" class="btn btn-danger mx-2">
-                      <i class="fas fa-trash"></i>
-                    </a>
-                  </div>
-                </td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  
+                  <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                    <th>Id</th>
+                    <th>Prenom</th>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Mot de passe</th>
+                    <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>hussein</td>
+                    <td>Bouik</td>
+                    <td>bouik.hussein.solicode@gmail.com</td>
+                    <td>student</td>
+                    <td>**************</td>
+                    <td class="project-actions text-right">
+                      <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                  </td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>hussein</td>
+                    <td>Bouik</td>
+                    <td>bouik.hussein.solicode@gmail.com</td>
+                    <td>student</td>
+                    <td>**************</td>
+                    <td class="project-actions text-right">
+                      <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                  </td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>hussein</td>
+                    <td>Bouik</td>
+                    <td>bouik.hussein.solicode@gmail.com</td>
+                    <td>student</td>
+                    <td>**************</td>
+                    <td class="project-actions text-right">
+                      <a class="btn btn-info btn-sm" href="#"><i class="fas fa-pencil-alt"> </i> Edit </a>
+                      <a class="btn btn-danger btn-sm" href="#"> <i class="fas fa-trash"> </i> Delete </a>
+                  </td>
+                    </tr>
+                    </tbody>
+                    </table>       
               </div>
-<!-- /.card-body -->
-<div class="card-footer clearfix">
-  <ul class="pagination pagination-sm m-0 float-right">
-    <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-  </ul>
-</div>            </div>
-            <!-- /.card -->
-
-
+              <div class="card-header row">
+                <div class="float-right col-md-6">
+                    <ul class="pagination pagination my-0">
+                        <li class="page-item"><a class="page-link" href="#">«</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">»</a></li>
+                    </ul>
+                </div>
+       
+              </div>
             <!-- /.card -->
           </div>   
   
-        </div>
+    </div>
+    </div>
+  </div><!-- /.container-fluid -->
+  </section>
+  </div>
     <!-- Footer (Optional) -->
     <footer class="main-footer">
   hello everybodyyyyy
