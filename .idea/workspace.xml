@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="711cf5f5-844f-43c4-8c6b-8f3c80e2a08a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/ValidateSignature.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/sanctum.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2YADVnWZzTILrwlB8r1dUyzY6eW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="711cf5f5-844f-43c4-8c6b-8f3c80e2a08a" name="Changes" comment="" />
+      <created>1699959519943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699959519943</updated>
+      <workItem from="1699959523838" duration="74000" />
+    </task>
+    <servers />
+  </component>
+</project>
