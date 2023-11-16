@@ -13,7 +13,7 @@
                 <!-- Id (hidden field for editing existing items) -->
                 <div class="form-group">
                     <label for="taskId">Identifiant</label>
-                    <input type="text" class="form-control" id="taskId" name="taskId" placeholder="Enter Id"  value="{{ isset($task) ? $task->id : old('id') }}"  readonly>
+                    <input type="text" class="form-control" id="taskId" name="taskId" placeholder="Enter Id"  value="{{ isset($task) ? $task->id : old('id') }}" {{ isset($task) ? 'readonly' : '' }} >
                 </div>
             
                 <!-- Name -->

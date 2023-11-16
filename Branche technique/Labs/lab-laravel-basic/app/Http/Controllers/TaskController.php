@@ -41,6 +41,7 @@ class TaskController extends Controller
 
     public function update(Request $request, Task $task)
     {
+        
         // Validate and update the task in the database
         // Redirect to the index page with a success message
     }
