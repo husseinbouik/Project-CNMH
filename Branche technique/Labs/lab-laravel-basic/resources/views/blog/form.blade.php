@@ -1,7 +1,6 @@
 @extends('base')
 @section('title','Task managment')
 @section('content')
-    
     <!-- Content Wrapper -->
     <div class="content-wrapper">
         <div class="card">
@@ -12,19 +11,28 @@
               <form  method="POST" action="{{ isset($task) ? route('tasks.update', $task->id) : route('tasks.store') }}">
                 <!-- Id (hidden field for editing existing items) -->
                 <div class="form-group">
-                    <label for="taskId">Identifiant</label>
-                    <input type="text" class="form-control" id="taskId" name="taskId" placeholder="Enter Id"  value="{{ isset($task) ? $task->id : old('id') }}" {{ isset($task) ? 'readonly' : '' }} >
+                    @if(isset($task))
+                        <label for="taskId">Identifiant</label>
+                        <input type="text" class="form-control" id="taskId" name="taskId" placeholder="Enter Id" value="{{ $task->id }}" readonly>
+                    @endif
                 </div>
+                
             
                 <!-- Name -->
                 <div class="form-group">
                     <label for="taskName">Nom<span class="text-red">*</span></label>
-                    <input type="text" class="form-control" id="taskName" name="name" placeholder="Enter Name" value="{{ isset($task) ? $task->name : old('name') }}">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Name" value="{{ isset($task) ? $task->name : old('name') }}">
+                    @error('name')
+                    {{$message}}
+                @enderror
                 </div>
                 <!-- Description -->
                 <div class="form-group">
                     <label for="taskDescription">Description</label>
                     <textarea id="description" name="description" >{{ isset($task) ? $task->description : old('description') }}</textarea>
+                    @error('description')
+                    {{$message}}
+                @enderror
                 </div>   
 
                 <!-- Action buttons -->

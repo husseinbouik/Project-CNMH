@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\FormTaskRequest;
 use Illuminate\Http\Request;
 use App\Models\Task;
 class TaskController extends Controller
@@ -21,11 +22,19 @@ class TaskController extends Controller
         return view('blog.create');
     }
 
-    public function store(Request $request)
+    public function store(FormTaskRequest $request, Task $task)
     {
-        // Validate and store the new task in the database
-        // Redirect to the index page with a success message
+  
+     // 1. Validation
+     $validatedData = $request->validated();
+
+     // 2. Create the Task
+     $task->create($validatedData);
+ 
+     // 3. Redirect with Success Message
+     return redirect()->route('tasks.index')->with('success', 'Task created successfully');
     }
+
 
     public function show(Task $task)
     {
@@ -39,12 +48,17 @@ class TaskController extends Controller
         return view('blog.edit', ['task' => $task]);
     }
 
-    public function update(Request $request, Task $task)
+    public function update(FormTaskRequest $request, Task $task)
     {
-        
-        // Validate and update the task in the database
-        // Redirect to the index page with a success message
-    }
+
+     // 1. Validation
+     $validatedData = $request->validated();
+
+     // 2. Update the Task
+     $task->update($validatedData);
+ 
+     // 3. Redirect with Success Message
+     return redirect()->route('tasks.create')->with('success', 'Task updated successfully');}
 
     public function destroy(Task $task)
     {
