@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('blog.index');
 });
+// Route :: prefix('/blog')->name('blog.')->controller(Blogcontroller::class)->group (function () {
+
+
+// });
