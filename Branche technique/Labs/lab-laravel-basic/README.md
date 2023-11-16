@@ -21,15 +21,15 @@ The "lab-laravel-basic" project is a web application developed using Laravel, fo
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/lab-laravel-basic.git`
-2. Install dependencies: `composer install`
-3. Set up your environment file: `cp .env.example .env`
-4. Generate the application key: `php artisan key:generate`
+1. Clone the repository: ```git clone https://github.com/husseinbouik/lab-laravel-basic.git```
+2. Install dependencies: ```composer install```
+3. Set up your environment file: ```cp .env.example .env```
+4. Generate the application key: ```php artisan key:generate```
 5. Configure your database settings in the `.env` file.
-6. Run database migrations: `php artisan migrate`
-7. Start the development server: `php artisan serve`
+6. Run database migrations: ```php artisan migrate```
+7. Start the development server: ```php artisan serve```
 
-Visit the application in your browser at `http://localhost:8000`.
+Visit the application in your browser at ```(http://localhost:8000)[http://localhost:8000]```.
 
 ## Usage
 
