@@ -17,7 +17,7 @@
 
                     <div class="col-sm-12 d-flex justify-content-between p-3">
                         <div class="d-flex justify-content-between">
-                            <a href="Taches-add&edit.html" class="btn btn-primary"><i
+                            <a href="/create" class="btn btn-primary"><i
                                     class="fa fa-plus"></i> </a>
                         </div>
 
@@ -50,44 +50,27 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach ($tasks as $task)
                                 <tr>
-                                    <td>1</td>
-                                    <td>Développer la première fonctionnalité du projet</td>
-                                    <td>description</td>
+                                    <td>{{ $task->id }}</td>
+                                    <td>{{ $task->name }}</td>
+                                    <td>{{ $task->description }}</td>
+                                    <td class="project-actions text-right">
+                                        <a class="btn btn-info btn-sm" href="{{ route('tasks.edit', $task->id) }}">
+                                            <i class="fas fa-pencil-alt"></i> Edit
+                                        </a>
+                                        <form action="{{ route('tasks.destroy', $task->id) }}" method="POST" style="display: inline;">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">
+                                                <i class="fas fa-trash"></i> Delete
+                                            </button>
+                                        </form>
+                                    </td>
+                                    
+                                </tr>
+                                @endforeach
 
-                                    <!-- <td>Utilisateur 1, Utilisateur 2</td> -->
-                                    <td class="project-actions text-right">
-                                        <a class="btn btn-info btn-sm" href="Taches-add&edit.html"><i
-                                                class="fas fa-pencil-alt"> </i> Edit </a>
-                                        <a class="btn btn-danger btn-sm" href="#"> <i
-                                                class="fas fa-trash"> </i> Delete </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Développer la deuxième fonctionnalité du projet</td>
-                                    <td>description</td>
-
-                                    <!-- <td>Utilisateur 3, Utilisateur 4</td> -->
-                                    <td class="project-actions text-right">
-                                        <a class="btn btn-info btn-sm" href="Taches-add&edit.html"><i
-                                                class="fas fa-pencil-alt"> </i> Edit </a>
-                                        <a class="btn btn-danger btn-sm" href="#"> <i
-                                                class="fas fa-trash"> </i> Delete </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Développer la troisième fonctionnalité du projet</td>
-                                    <td>description</td>
-                                    <!-- <td>Utilisateur 5, Utilisateur 6</td> -->
-                                    <td class="project-actions text-right">
-                                        <a class="btn btn-info btn-sm" href="Taches-add&edit.html"><i
-                                                class="fas fa-pencil-alt"> </i> Edit </a>
-                                        <a class="btn btn-danger btn-sm" href="#"> <i
-                                                class="fas fa-trash"> </i> Delete </a>
-                                    </td>
-                                </tr>
                             </tbody>
                         </table>
 
