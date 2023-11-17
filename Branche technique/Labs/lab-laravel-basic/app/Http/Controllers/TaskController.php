@@ -58,10 +58,13 @@ class TaskController extends Controller
      $task->update($validatedData);
  
      // 3. Redirect with Success Message
-     return redirect()->route('tasks.create')->with('success', 'Task updated successfully');}
+     return redirect()->route('tasks.index')->with('success', 'Task updated successfully');}
 
     public function destroy(Task $task)
     {
-        // Delete the specified task from the database
-        // Redirect to the index page with a success message
-    }}
+        $task->delete();
+ 
+        // 3. Redirect with Success Message
+        return redirect()->route('tasks.index')->with('success', 'Task deleted successfully');
+    }
+}

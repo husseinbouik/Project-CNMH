@@ -10,6 +10,7 @@
             <div class="card-body">
               <form  method="POST" action="{{ isset($task) ? route('tasks.update', $task->id) : route('tasks.store') }}">
                 <!-- Id (hidden field for editing existing items) -->
+                @csrf
                 <div class="form-group">
                     @if(isset($task))
                         <label for="taskId">Identifiant</label>

@@ -29,7 +29,7 @@ use App\Http\Controllers\TaskController;
     Route::get('/{task}/edit', [TaskController::class, 'edit'])->name('tasks.edit');
 
     // Update a task
-    Route::put('/{task}', [TaskController::class, 'update'])->name('tasks.update');
+    Route::post('/{task}', [TaskController::class, 'update'])->name('tasks.update');
 
     // Delete a task
     Route::delete('/{task}', [TaskController::class, 'destroy'])->name('tasks.destroy');

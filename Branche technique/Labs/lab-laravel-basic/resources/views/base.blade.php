@@ -89,7 +89,7 @@
                         data-accordion="false">
                         <!-- Add your sidebar menu items here -->
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link active ">
+                            <a href="/" class="nav-link active ">
                                 <i class="nav-icon fas fa-chalkboard-teacher"></i>
                                 <!-- Change the class to "fas fa-chalkboard-teacher" -->
                                 <p>Gestion des Taches</p>

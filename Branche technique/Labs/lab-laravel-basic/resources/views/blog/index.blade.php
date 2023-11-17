@@ -14,6 +14,11 @@
             </div>
             <div class="card ">
                 <div class="card-header">
+                    @if(session('success'))
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
+                @endif
 
                     <div class="col-sm-12 d-flex justify-content-between p-3">
                         <div class="d-flex justify-content-between">
@@ -54,7 +59,7 @@
                                 <tr>
                                     <td>{{ $task->id }}</td>
                                     <td>{{ $task->name }}</td>
-                                    <td>{{ $task->description }}</td>
+                                    <td>{!! $task->description !!}</td>
                                     <td class="project-actions text-right">
                                         <a class="btn btn-info btn-sm" href="{{ route('tasks.edit', $task->id) }}">
                                             <i class="fas fa-pencil-alt"></i> Edit
