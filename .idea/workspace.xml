@@ -2,85 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711cf5f5-844f-43c4-8c6b-8f3c80e2a08a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Console/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Exceptions/Handler.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Controllers/Controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Kernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/Authenticate.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/ValidateSignature.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/AppServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/AuthServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/EventServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/app/Providers/RouteServiceProvider.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/artisan" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/bootstrap/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/bootstrap/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/auth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/broadcasting.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/cors.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/database.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/filesystems.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/hashing.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/logging.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/queue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/sanctum.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/services.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/session.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/config/view.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/database/seeders/DatabaseSeeder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/phpunit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/api.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/channels.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/console.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/routes/web.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/app/public/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/cache/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/cache/data/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/sessions/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/testing/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/framework/views/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/storage/logs/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/CreatesApplication.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/TestCase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/tests/Unit/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-crud-laravel/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/resources/views/base.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/resources/views/base.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/resources/views/blog/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X0064a408c1b09e0ee476d613fa8ff990.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X0b58764010f7783ed96bd3c11f95f500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X0c9e352386b37e43296015a73d0e53b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X0f628bf7a376a0adbf5125c60033e4de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X124fa3f15bf6e98dbed0c7ad2e953165.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X137b3bf2d0b34bff83e328bbeed450e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X1da919f323bb269ecf8c596baecc5ea6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X2656fafb43ac2a8633a4f9de0d4e20ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X27debd31edfe9566f1330c998fe1c697.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X30819dfd257ea4c8a9b342a588925297.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X33ac186098d2d83e5bb1ef2568b61a59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X350f1dedd0781e0fca92600ea551c5c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X371fe687ef6e04b653ddaa2a5caf7521.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X3789f0955d67517cc229adb9d70e7c37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X39e4c7d1d9be0b2815ddc9f7c1a65123.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X3cc902d6469fba512af970a79a09bd7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X44e034a385e9b8c50946197db81f59e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X4a7390cef28954cb6822e976a253e63e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X4f0d61bc475977760724aa8fce62789d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X4fc5f3082431b1ca21a2cb6677e861b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X5d6d939e147de772a9349c3224337957.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X5dfbe1496d98cfc6b90228f5b1cbb1ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X5e16ccffcd21c1b47a77d4df19c2d1e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X60e6dc68bb862a38232597f11af45832.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X613d99cf421856803b1b3bc1ec982802.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X6405d4aae1247e442a12b1d18ded0a5d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X66d462e549522973448dc6709e372911.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X69027424b445e05612a4b011769ced57.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X6a1a5394500a4f6f79ebc66bd781ff3a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X70d173fef30c558778393c0cad913264.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X7801dc5ff731503254796d70f548cb1c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X79ece0192b7bc382619b6ceea80a8818.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X7cbdbf877a8d9c4ee99695fa50db657a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X7f00357e56625d4fb94e597c5002a52d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X85638cc07222467ebb312a2bcc61f780.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X860c257a5bed8a8be25de2cd3a411527.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X8738cf3225b0a2e0f610fba3d05a202c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X8794d36fb88cfc61db70fa7df2eee6e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X8a16e5343828072e4306d50dc86346de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X9251fa5457b8d27b60f466790051d07c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X9b33836853cdf3a2fb85d868253d7405.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X9c614af05a513e40ece294b351121dc4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/X9d1a5a276a847c512abb951eb10b62f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xa1849f32b941f46549f3e270dd2bd730.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xa9d3948821a72de593092b5c3f75aeba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xaa7842d256d125abc1efeaf8efbf7d22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xb002e1ad47ec02c8f884ea80a904118c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xb01b344b7ac554496bfdf1cc850ba786.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xb2a217379dc2de30af68acb81c6d42fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xb2e7df0a27750ab647dc1e987b70100f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xba6637a37a562e927ccea3289e883531.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xbf80698fc1cac70ed395a030b86eaf80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xc0024e907a01c42adc9feb8e49828208.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xc0b0d30db05788a9c84989cd8832c2ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xc2c91ad249a9bc9dbd72042d49454283.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xc67bf64ace678cc12fa5a5e9f5b7c839.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xc845502da6f78f70f9246cac3aa1c98f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xcf3361f872860cf797f244927d8d4a7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xd7e6ccaa2dce5ec2e4fb8a8130a65240.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xda8af645981533ec747fc8df914af7f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xe1335749e3f30cb972c1579c6ceaf72f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xe30a3ebe353863c3e6e7b29d80e3d03e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xeaed98fd40dba816e7b738f3c1621b4e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xec7c50ba32b4c59e507563f5dee623f8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xf1501cc3782b00ec67a428f1101567b5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xf3455476e70f4d857a3cb41888c7bf57.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xf4d2151e33f6c5dd7eebdbe479cf4e39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xf4ff1b3eab9b0dccae379d161c79d498.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xfa1b68a98126cbbd4c4d2b27c5773457.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xfad5edc97ef6ab466a2ee2303a7d9578.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xfbd8eb78336199805bd26d81d696bec2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Branche technique/Labs/lab-laravel-basic/storage/debugbar/Xfed445ea746e91f25b3e6fa9ebacc1a9.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,25 +88,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2YADVnWZzTILrwlB8r1dUyzY6eW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -118,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699959519943</updated>
       <workItem from="1699959523838" duration="74000" />
+      <workItem from="1700213954455" duration="134000" />
     </task>
     <servers />
   </component>

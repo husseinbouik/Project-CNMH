@@ -17,20 +17,13 @@ use App\Http\Controllers\TaskController;
 
 // Route::prefix('tasks')->group(function () {
     // Index page to show all tasks
-    Route::get('/', [TaskController::class, 'index'])->name('tasks.index');
+// routes/web.php
 
-    // Show the form to create a new task
-    Route::get('/create', [TaskController::class, 'create'])->name('tasks.create');
+Route::get('/', [TaskController::class, 'index'])->name('tasks.index');
+Route::get('/create', [TaskController::class, 'create'])->name('tasks.create');
+Route::post('/', [TaskController::class, 'store'])->name('tasks.store');
+Route::get('/{task}/edit', [TaskController::class, 'edit'])->name('tasks.edit');
+Route::post('/{task}', [TaskController::class, 'update'])->name('tasks.update');
+Route::delete('/{task}', [TaskController::class, 'destroy'])->name('tasks.destroy');
 
-    // Store a new task
-    Route::post('/', [TaskController::class, 'store'])->name('tasks.store');
-
-    // Show the form to edit a task
-    Route::get('/{task}/edit', [TaskController::class, 'edit'])->name('tasks.edit');
-
-    // Update a task
-    Route::post('/{task}', [TaskController::class, 'update'])->name('tasks.update');
-
-    // Delete a task
-    Route::delete('/{task}', [TaskController::class, 'destroy'])->name('tasks.destroy');
 // });

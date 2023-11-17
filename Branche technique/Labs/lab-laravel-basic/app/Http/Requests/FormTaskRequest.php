@@ -24,6 +24,7 @@ class FormTaskRequest extends FormRequest
         return [
             'name'=>['required'],
             'description'=>['required'],
+            'search' => 'nullable|string|max:255',
         ];
     }
 }

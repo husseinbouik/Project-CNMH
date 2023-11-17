@@ -1,20 +1,67 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Contracts\Pagination\Paginator;
+use App\Http\Requests\FormPostRequest;
+use App\Models\Category;
+use App\Models\Post;
+use App\Models\Tag;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Storage;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Validator;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use App\Http\Requests\FormTaskRequest;
 use Illuminate\Http\Request;
 use App\Models\Task;
 class TaskController extends Controller
 {
-    public function index()
-    {
-        // Retrieve all tasks from the database
-        $tasks = Task::all();
+    
+    // public function index(Request $request, Task $task) {
+    //     $search = $request->input('search');
+    
+    //     // $tasks = Task::all();
+    
+    //     if ($search) {
+    //         $query = Task::where('name', 'LIKE', '%' . $search . '%')
+    //             ->orWhere('description', 'LIKE', '%' . $search . '%');
+    
+    //         $tasks = $query->paginate(2);
+    //     } else {
+    //         // dd($tasks);
+    //         Task::get()->paginate(2); // Paginate even if no search
+    //     }
+    
+    //     return view('blog.index', compact('task', 'search'));
+    // }
 
-        // Return a view with the tasks
-        return view('blog.index', ['tasks' => $tasks]);
+ 
+    public function index(Request $request)
+    {
+        $search = $request->input('search');
+        $tasksPerPage = 2;
+    
+        $query = Task::query();
+    
+        if ($search) {
+            $query->where('name', 'LIKE', '%' . $search . '%')
+                  ->orWhere('description', 'LIKE', '%' . $search . '%');
+        }
+    
+        $tasks = $query->paginate($tasksPerPage);
+    
+        if ($request->ajax()) {
+            return view('blog.tasks', compact('tasks', 'search'))->render();
+        }
+    
+        return view('blog.index', compact('tasks', 'search'));
     }
+    
+    
+
+    
 
     public function create()
     {

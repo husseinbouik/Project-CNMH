@@ -12,6 +12,33 @@
                 </div><!-- /.row -->
 
             </div>
+             <!-- Add this section for instant search -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        // Add this script for instant search
+        $(document).ready(function () {
+            $('#search').on('input', function () {
+                fetchTasks();
+            });
+
+            function fetchTasks() {
+                var search = $('#search').val();
+
+                $.ajax({
+                    url: '{{ route("tasks.index") }}',
+                    type: 'GET',
+                    data: { search: search },
+                    success: function (data) {
+                        $('#tasks-container').html(data);
+                    },
+                    error: function () {
+                        console.log('Error fetching tasks.');
+                    }
+                });
+            }
+        });
+    </script>
+
             <div class="card ">
                 <div class="card-header">
                     @if(session('success'))
@@ -25,13 +52,13 @@
                             <a href="/create" class="btn btn-primary"><i
                                     class="fa fa-plus"></i> </a>
                         </div>
-
+                       
                         <!-- SEARCH FORM -->
-                        <form class="form-inline ml-3">
+                        <form class="form-inline ml-3" method="GET" action="{{ route('tasks.index') }}" >
                             <div class="input-group input-group-sm">
 
                                 <input type="search" class="form-control form-control-lg"
-                                    placeholder="Recherche">
+                                    name="search" id="search" placeholder="Recherche" value="{{ $search }}">
                                 <div class="input-group-append">
                                     <button type="submit" class="btn btn-lg btn-default">
                                         <i class="fa fa-search"></i>
@@ -55,6 +82,7 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <div id="tasks-container">
                                 @foreach ($tasks as $task)
                                 <tr>
                                     <td>{{ $task->id }}</td>
@@ -75,21 +103,19 @@
                                     
                                 </tr>
                                 @endforeach
+                                
 
+                                </div>
                             </tbody>
                         </table>
 
                     </div>
                     <div class="card-header row">
                         <div class="float-right col-md-6">
-                            <ul class="pagination pagination my-0">
-                                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">»</a></li>
-                            </ul>
-                        </div>
+                            <div class="d-flex justify-content-center">
+                                {{ $tasks->links('pagination::bootstrap-4') }}
+                            </div>
+                    </div>
                         <div class="float-left col-md-6 d-flex justify-content-end"
                             style="align-items: center; ">
                             <!-- <button type="button" class="btn btn-default swalDefaultQuestion">
