@@ -17,7 +17,7 @@
     <script>
         // Add this script for instant search
         $(document).ready(function () {
-            $('#search').on('input', function () {
+            $('#search').on('keyup', function () {
                 fetchTasks();
             });
 
