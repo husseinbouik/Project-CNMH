@@ -5,6 +5,7 @@
 - 
 # Hussein Bouik - Développeur Web Full Stack
 
+![Project Logo](hussein.jpg)
 ## Contact
 - **Téléphone :** +212 632718980
 - **Email :** husseinbouik5@gmail.com
@@ -30,13 +31,6 @@
 - Algorithmique
 - Langages de programmation (C, HTML, CSS, PHP, etc.)
 
-### Certificat d'analyse de données
-**Académie Google Analytics** (2021 - 2022)
-- Principes fondamentaux de l'analyse des données
-- Visualisation des données
-- Notions de base de l'apprentissage automatique
-- Apprentissage automatique avancé
-- Apprentissage automatique appliqué
 
 ### Baccalauréat Sciences mathématiques B
 **Lycée Mohamed Arsalane** (2019 - 2020)
