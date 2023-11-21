@@ -9,10 +9,46 @@
 [branche fonctionnelle](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit?usp=sharing)
 
 
-# Charte graphique
-[color palette](https://color.adobe.com/fr/boom-color-theme-e5b902a2-489c-4d16-818c-2f609a4ed0e6/) 
+# La Charte Graphique
+![Color](img/AdobeColor-CNMH.jpeg)
+## Logo
 
-[charte graphique](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit?usp=sharing)
+### solicode
+![Color](img/solicode-logo.png)
+### CNMH
+![Color](img/cnmh-logo.jpg)
+### OFPPT
+![Color](img/ofppt-logo.png)
+## Font-Family
+- **Poppins**
+- Sans-Serif
+
+## Couleurs
+![Color](img/Ref-D1ECF5.png)
+
+- `#D1ECF5`
+
+![Color](img/Ref-EBF7F3.png)
+
+- `#EBF7F3`
+
+![Color](img/Ref-EBEB94.png)
+
+- `#EBEB94`
+
+![Color](img/Ref-326279.png)
+
+- `#326279`
+
+![Color](img/Ref-537E90.png)
+
+- `#537E90`
+
+### Références
+Les références de couleurs peuvent être consultées sur [Adobe Color Themes](https://color.adobe.com/fr/boom-color-theme-9a19b0ba-edea-435a-8b8c-62316972504c/).
+
+### Note
+Le fond de la présentation doit rester blanc en raison du diagramme UML.
 
 # Theme Presentation
 
