@@ -1,111 +1,75 @@
 # lab-markdown
-Welcome to the Lab Markdown repository! This space is dedicated<br> to understanding and mastering the art of Markdown, a lightweight and easy-to-use markup language that allows you to format plain text.<br> Markdown is widely used for creating documentation, README files, and even blogs.<br> In this lab, you will learn the fundamentals of Markdown syntax, including headers, lists, links, code blocks, and more.<br>
-# Tasks to be Done:
-1. Add Examples: Include practical examples for each Markdown styling command to demonstrate their usage.
-2. Visual Enhancements: Integrate badges, screenshots, or diagrams to visually enhance the README.
-3. Live Demos: If applicable, provide links to live demos or interactive examples.
-4. Additional Resources: Expand the section on links to include more resources for further learning.
-5. Contributing Guidelines: Elaborate on how others can contribute to the Lab Markdown repository.
-6. License Details: Provide specific details about the license your project uses.
-7. Proofreading: Conduct a thorough proofreading to ensure there are no grammatical or spelling errors.
-8. Organization: Consider restructuring the content into more organized sections for better readability.
+## Travaux à Faire
+- Rédiger un CV au format Markdown pour le fichier README sur GitHub.
+- Maîtriser la création et la mise en forme d'un CV en Markdown.
+- 
+# Hussein Bouik - Développeur Web Full Stack
 
-Feel free to explore the resources and exercises in this repository to enhance your Markdown skills.<br> Whether you are a beginner or an experienced developer, mastering Markdown will empower you to create clear and well-formatted documents for your projects.<br> Let's dive in and elevate your Markdown game!<br>
-## Rules for Writing README.md:
-1. Clarity: Make sure your content is clear and easy to understand.
-2. Sections: Divide your document into sections for easy navigation.
-3. Installation: Include clear installation instructions.
-4. Usage: Explain how to use your project with examples if possible.
-5. Contributing: Clearly state how others can contribute to your project.
-6. License: Specify the license your project uses.
-7. Visuals: Use badges, screenshots, and diagrams to enhance understanding.
-8. Links: Provide links to important resources, documentation, and live demos.
-9. Formatting: Use formatting (like bold, italics, lists) for readability.
-10. Grammar and Spelling: Proofread your content to ensure there are no errors.
-## Markdown Styling Commands:
-1. Headers (`#`, `##`, `###`):
-```
-# hussein
-## Bouik
-### boom
-```
-# hussein
-## Bouik
-### boom
+## Contact
+- **Téléphone :** +212 632718980
+- **Email :** husseinbouik5@gmail.com
+- **Adresse :** Tanger, Av Aicha Moussafer résidence Aicha
+- **LinkedIn :** [hussein bouik](https://www.linkedin.com/in/husseinbouik)
+- **GitHub :** [husseinbouik](https://github.com/husseinbouik)
 
-***Headers are used to create section titles. Use `#` for the main title, `##` for subsections, and so on.***
-2. Emphasis (Bold `**`, Italic `*`):
+## Formations
+### Développement Web
+**Centre de Formation Solicode** (2022 - 2023)
+- Conception et modélisation de sites web
+- Développement frontend (HTML, CSS, JavaScript, jQuery, React)
+- Développement backend (PHP, MySQL, Laravel)
+- Design graphique pour le web
 
-```
-**Bold Text**
-*Italic Text*
-```
-**Bold**
-*Italic*
+### Sciences Mathématiques et Informatique
+**Université Abdelmalek Essaâdi** (2020 - 2023)
+- Systèmes informatiques
+- Structures de données
+- Réseaux informatiques
+- Architecture des ordinateurs
+- Systèmes d'exploitation
+- Algorithmique
+- Langages de programmation (C, HTML, CSS, PHP, etc.)
 
-***Use `**` for bold and `*` for italic. Wrap the text you want to emphasize with these symbols.***
-3. Lists (`-`, `1.`):
+### Certificat d'analyse de données
+**Académie Google Analytics** (2021 - 2022)
+- Principes fondamentaux de l'analyse des données
+- Visualisation des données
+- Notions de base de l'apprentissage automatique
+- Apprentissage automatique avancé
+- Apprentissage automatique appliqué
 
-```
-- php 1
-- html 2
-  - javascript 2.1
-1. Boom 1
-2. Done 2
-```
-- php 1
-- html 2
-  - javascript 2.1
-1. Boom 1
-2. Done 2
+### Baccalauréat Sciences mathématiques B
+**Lycée Mohamed Arsalane** (2019 - 2020)
 
-Use `-` for unordered (bullet) lists and `1.` for ordered lists.
-4. Links (`[]``()`):
-```
-[hussein](https://github.com/husseinbouik)
-```
-[hussein](https://github.com/husseinbouik)
-5. Images (`![]``()`):
-```
-![Alt Text](image-url)
-```
-![Dog](https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+## Compétences techniques
+- **Langages de programmation :** HTML, CSS, JavaScript, PHP, SQL, jQuery, Python, R
+- **Frameworks :** Laravel, Bootstrap
+- **Outils :** VSC, Git, Figma, GitHub
+- **Logiciels :** Word, Excel, PowerPoint, Spreadsheet, Tableau.
+- **Autres compétences :** Wordpress, Bootstrap
 
+## Compétences transversales
+- Travail en équipe
+- Esprit critique et d'analyse
+- Autonomie, initiative
 
-6. Code Blocks (`,` ` language`):
-```
-Use three backticks (```) for code blocks. Optionally, specify the programming language after the opening three backticks for syntax highlighting.
+## Langues
+- Arabe : Maternelle
+- Anglais : Bilingue
+- Français : Courant
+- Allemand : Intermédiaire
 
-```
-7. Tables (`|`):
-```
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1    | Row 1    |
-| Row 2    | Row 2    |
-```
-| Header 1 | Header 2 |
-|----------|----------|
-| Row 1    | Row 1    |
-| Row 2    | Row 2    |
+## Développement personnel
+- Lecture
+- Musique
+- Sport
 
-8. Quotes  (`>`):
-```
-> This is a quote.
-```
-> This is a quote.
+## Centre d’intérêts
+- Participation à une formation en entrepreneuriat et soft skills dans le cadre du programme Challengers à l'ISTA Ibn Marhal, Tanger.
+  - **Attestation :** Formation en entrepreneuriat et soft skills, Challengers à l'ISTA Ibn Marhal, Tanger
 
-9. Task Lists (`-` `[ ]`, `-` `[x]`):
-```
-- [x] Task 1
-- [ ] Task 2
-```
-- [x] Task 1
-- [ ] Task 2
-10. Horizontal Line (`---`):
-```
----
-```
-
----
-Remember, a well-organized and well-formatted README.md not only helps users understand your project<br> better but also encourages collaboration and contributions.<br> Use these commands wisely to create an informative and visually appealing README.md file for your projects.
+## Projets Réalisés
+1. Plateforme de mentorat pour accompagner les apprenants dans leur parcours professionnel.
+2. Gestion des emprunts d'ouvrages dans une médiathèque publique.
+3. Site Web e-commerce en utilisant WordPress et WooCommerce.
+4. Application Web pour la gestion des annonces dans une agence immobilière.
