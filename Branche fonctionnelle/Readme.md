@@ -1,11 +1,11 @@
-# Validation Branche fonctionnelle
+
+# La Charte Graphique
 
 ## Travail à Faire :
 - Création de la charte graphique de présentation
 - Appliquer la charte graphique dans le thème de la présentation
 - Appliquer la charte graphique dans la présentation
 
-# La Charte Graphique
 
 ## Palette de Couleurs du Logo
 
