@@ -1,13 +1,9 @@
 # Validation Branche fonctionnelle
 
 ## Travail à Faire :
-- User Stories
 - Création de la charte graphique de présentation
 - Appliquer la charte graphique dans le thème de la présentation
 - Appliquer la charte graphique dans la présentation
-
-# Rapport branche fonctionnelle
-[branche fonctionnelle](https://docs.google.com/document/d/1ChcaLO0gb-rc4wh6fTCoORnpx5wyOrUke7OMOUXfbbQ/edit?usp=sharing)
 
 # La Charte Graphique
 
@@ -82,6 +78,6 @@ Le fond de la présentation doit rester blanc en raison du diagramme UML.
 
 # Thème de la Présentation
 
-[Thème de la présentation](https://docs.google.com/presentation/d/1iipkAvkR68LQkmU8Gks_kWtWpdhh0VEgranMk800MWM/edit?usp=sharing)
+[Exemple slide](https://docs.google.com/presentation/d/1iipkAvkR68LQkmU8Gks_kWtWpdhh0VEgranMk800MWM/edit?usp=sharing)
 
 ![Exemple](img/Exemple.png)
