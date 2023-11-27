@@ -144,7 +144,6 @@ Assurez-vous de bien comprendre les concepts de base de Git, tels que le clonage
 
 N'hésitez pas à explorer d'autres fonctionnalités de Git pour améliorer votre gestion de version et faciliter la collaboration avec d'autres développeurs.
 
----
 
 ### Remarque
 
