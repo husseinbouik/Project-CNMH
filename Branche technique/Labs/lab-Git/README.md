@@ -136,9 +136,9 @@ Maintenant, les modifications des branches `bracnh-1` et `branch-2` sont fusionn
 
 le cas échéant.
 
-## Ressources
+## Reference
 
-Vous pouvez consulter la documentation officielle de Git pour en savoir plus sur les opérations mentionnées ci-dessus : [Documentation Git](https://git-scm.com/doc).
+Vous pouvez consulter la documentation officielle de Git pour en savoir plus sur les opérations mentionnées ci-dessus : [Documentation Git](https://git-scm.com/docs).
 
 Assurez-vous de bien comprendre les concepts de base de Git, tels que le clonage, la création de branches, la fusion, la résolution de conflits, et le push vers un dépôt distant.
 
@@ -148,5 +148,3 @@ N'hésitez pas à explorer d'autres fonctionnalités de Git pour améliorer votr
 ### Remarque
 
 Assurez-vous de tester minutieusement le code fusionné pour garantir que tout fonctionne correctement avant de le déployer en production, le cas échéant.
-
-```
