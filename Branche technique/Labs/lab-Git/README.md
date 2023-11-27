@@ -1,124 +1,143 @@
-# lab-github <br>
+# lab-github
 
-**Steps to make conflict** <br>
+## Travail à faire
 
-After collaborate with someone else to work on same repo 
+**Étapes pour créer un conflit**
 
-***First you need to clone your repo*** <br>
+Après avoir collaboré avec quelqu'un d'autre pour travailler sur le même dépôt
+
+***En premier lieu, vous devez cloner votre dépôt***
 
 ```
 git clone https://github.com/Jalil-Betroji/lab-github.git
-
 ```
-***than you need to clone your repo*** <br>
 
-- than you can start changing in files according to your tasks
-**=>** but sometimes you may change same line that your group mate changed too <br>
- in this stuation when you try to merge your branch with his branch you will get a conflict.
+***Ensuite, vous devez cloner votre dépôt***
 
-***Create your branch and push***
+- Vous pouvez ensuite commencer à modifier les fichiers en fonction de vos tâches
+**=>** mais il peut arriver que vous modifiez la même ligne que votre collègue
+ dans ce cas, lorsque vous essayez de fusionner votre branche avec la sienne, vous obtiendrez un conflit.
+
+***Créez votre branche et poussez-la***
+
 ```
 git checkout -b <branch-name>
 ```
-Replace <branch-name> with the desired name for your new branch. This command creates a new branch and switches to it.<br> 
-***If you want to create the branch but stay on your current branch, you can omit the -b flag:***
+Remplacez <branch-name> par le nom souhaité pour votre nouvelle branche. Cette commande crée une nouvelle branche et y bascule.<br> 
+***Si vous souhaitez créer la branche mais rester sur votre branche actuelle, vous pouvez omettre l'indicateur -b :***
 
 ```
 git branch <branch-name>
 ```
-***After creating the branch, you can switch to it later using:***
+***Après avoir créé la branche, vous pouvez y basculer plus tard en utilisant :***
 
 ```
 git checkout <branch-name>
 ```
-Or, if you're using Git version 2.23 or later, you can use the git switch command to switch branches:
+Ou, si vous utilisez Git version 2.23 ou ultérieure, vous pouvez utiliser la commande git switch pour changer de branche :
 
 ```
 git switch <branch-name>
 ```
 
-Remember to replace <branch-name> with the actual name you want to give to your new branch.
+N'oubliez pas de remplacer <branch-name> par le nom réel que vous souhaitez donner à votre nouvelle branche.
 
-***To merge branches barnch-1 and branch-2 into the main branch, follow these steps:***<br>
+***Pour fusionner les branches barnch-1 et branch-2 dans la branche principale, suivez ces étapes :***
 
-***Ensure You're on the Main Branch:***<br>
-Before you start merging, ensure that you are on the main branch. You can switch to the main branch using the following command:
+***Assurez-vous que vous êtes sur la branche principale :***
+
+Avant de commencer à fusionner, assurez-vous que vous êtes sur la branche principale. Vous pouvez basculer vers la branche principale à l'aide de la commande suivante :
 
 ```
 git checkout main
 ```
 
-***Pull the Latest Changes:***<br>
+***Tirez les dernières modifications :***
 
-***It's a good practice to ensure your main branch is up-to-date with the remote repository before merging any branches. You can do this with:***
+***Il est recommandé de s'assurer que votre branche principale est à jour avec le dépôt distant avant de fusionner des branches. Vous pouvez le faire avec :***
 
 ```
 git pull origin main
 ```
-***Merge the Branches:***
-To merge the barnch-1 into main, use the following command:
+
+***Fusionnez les branches :***
+
+Pour fusionner barnch-1 dans main, utilisez la commande suivante :
 
 ```
 git merge barnch-1
 ```
 
-Then, if there are no conflicts, to merge the branch-2 into main, use:
+Ensuite, s'il n'y a pas de conflits, pour fusionner branch-2 dans main, utilisez :
 
 ```
 git merge hussein
 ```
-**Resolve Conflicts (If Any):**<br>
-If there are conflicts during the merge process, Git will pause and allow you to resolve them. You'll need to open the conflicted files, resolve the conflicts
 
-**follow this steps to resolve conflict** <br>
+**Résoudre les conflits (le cas échéant) :***
 
-```
+En cas de conflits pendant le processus de fusion, Git s'arrêtera et vous permettra de les résoudre. Vous devrez ouvrir les fichiers en conflit, résoudre les conflits
+
+**Suivez ces étapes pour résoudre le conflit :***
+
+
 <body>
 <<<<<<< HEAD
-    Hello im jalil betroji a full stack developer and solicode intern
+  Hello im jalil betroji a full stack developer and solicode intern
 =======
-    hussein ipsum dolor sit amet consectetur adipisicing elit. 
+  hussein ipsum dolor sit amet consectetur adipisicing elit. 
 >>>>>>> origin/hussein
-    Sed maiores quo debitis harum dolorum, itaque aliquid reiciendis 
-    quasi repellendus aliquam alias ipsam eligendi earum voluptate totam! Quos deleniti pariatur nemo?
-    ll
-    lorem
-    MMMM
+  Sed maiores quo debitis harum dolorum, itaque aliquid reiciendis 
+  quasi repellendus aliquam alias ipsam eligendi earum voluptate totam! Quos deleniti pariatur nemo?
+  ll
+  lorem
+  MMMM
 </body>
 
-```
-***Accept Current Change***<br>
-use it if you want to keep the current change ignore the Incoming Change<br>
-
-***Accept Incoming Change***<br>
-use it if you want to keep the Incoming Change ignore the current Change<br>
-***Accept Both Changes***<br>
-use it if you want to keep the both Changes<br>
-***Compare Changes***<br>
-use it if you want to caompare changes and see what you want to keep and what you want to change <br>
 
 
-***then stage the resolved files using:***<br>
+***Accepter la modification actuelle***
+
+utilisez-la si vous souhaitez conserver la modification actuelle, ignorez la modification entrante
+
+***Accepter la modification entrante***
+
+utilisez-la si vous souhaitez conserver la modification entrante, ignorez la modification actuelle
+
+***Accepter les deux modifications***
+
+utilisez-la si vous souhaitez conserver les deux modifications
+
+***Comparer les modifications***
+
+utilisez-la si vous souhaitez comparer les modifications et voir ce que vous voulez conserver et ce que vous voulez modifier
+
+***Ensuite, préparez les fichiers résolus en utilisant :***
 
 ```
 git add <conflicted-file-name>
 ```
-Once all conflicts are resolved, continue the merge process with:
+
+Une fois tous les conflits résolus, poursuivez le processus de fusion avec :
 
 ```
 git merge --continue
 ```
-***Commit the Merged Changes:***
-After resolving any conflicts and making sure everything is as you want it, commit the merged changes:
+
+***Validez les modifications fusionnées :***
+
+Après avoir résolu les conflits et vous être assuré que tout est comme vous le souhaitez, validez les modifications fusionnées :
 
 ```
-git commit -m "Merge branch-1 and branch-2 into main"
+git commit -m "Fusionner branch-1 et branch-2 dans main"
 ```
-***Push the Changes to Remote:***
 
-Finally, push the merged changes to the remote repository:
+***Poussez les modifications vers le remote :***
+
+Enfin, poussez les modifications fusionnées vers le dépôt distant :
 
 ```
 git push origin main
 ```
-Now, the changes from the bracnh-1 and branch-2 branches are merged into the main branch. Make sure to thoroughly test the merged code to ensure everything is working as expected before pushing to production if applicable.
+
+Maintenant, les modifications des branches bracnh-1 et branch-2 sont fusionnées dans la branche principale. Assurez-vous de tester soigneusement le code fusionné pour vous assurer que tout fonctionne comme prévu avant de pousser vers la production, le cas
