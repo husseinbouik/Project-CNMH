@@ -1,140 +1,47 @@
 
 # lab-github
 
-## Travail à Faire
+# Étapes pour Créer un Conflit
 
-**Étapes pour Créer un Conflit**
+Lors de la collaboration sur le même dépôt avec quelqu'un d'autre, suivez ces étapes pour créer un conflit.
 
-Après avoir collaboré avec quelqu'un d'autre pour travailler sur le même dépôt :
+## Cloner le Dépôt
 
-***En premier lieu, vous devez cloner votre dépôt***
+1. Cloner le dépôt.
 
-```bash
-git clone https://github.com/husseinbouik/lab-github.git
-```
+## Créer et Poussez une Nouvelle Branche
 
-***Ensuite, vous devez cloner votre dépôt***
+2. Créer une nouvelle branche.
 
-- Vous pouvez ensuite commencer à modifier les fichiers en fonction de vos tâches
-  **=>** mais il peut arriver que vous modifiez la même ligne que votre collègue
-  dans ce cas, lorsque vous essayez de fusionner votre branche avec la sienne, vous obtiendrez un conflit.
+3. Effectuer des modifications sur la nouvelle branche.
 
-***Créez votre branche et poussez-la***
+## Fusionner les Branches dans la Branche Principale
 
-```bash
-git checkout -b <branch-name>
-```
+4. Assurer la mise à jour de la branche principale avec les dernières modifications du dépôt distant.
 
-Remplacez `<branch-name>` par le nom souhaité pour votre nouvelle branche. Cette commande crée une nouvelle branche et y bascule.
-- Si vous souhaitez créer la branche mais rester sur votre branche actuelle, vous pouvez omettre l'indicateur -b :
+5. Fusionner la première branche dans la branche principale.
 
-```bash
-git branch <branch-name>
-```
+6. Fusionner la deuxième branche dans la branche principale.
 
-Après avoir créé la branche, vous pouvez y basculer plus tard en utilisant :
+## Résoudre les Conflits
 
-```bash
-git checkout <branch-name>
-```
+7. En cas de conflits, ouvrir les fichiers en conflit.
 
-Ou, si vous utilisez Git version 2.23 ou ultérieure, vous pouvez utiliser la commande `git switch` pour changer de branche :
+8. Utiliser les balises spécifiques pour identifier les modifications en conflit.
 
-```bash
-git switch <branch-name>
-```
+9. Choisir parmi les options de résolution de conflit, telles que accepter la modification actuelle, accepter la modification entrante, accepter les deux modifications ou comparer les modifications.
 
-N'oubliez pas de remplacer `<branch-name>` par le nom réel que vous souhaitez donner à votre nouvelle branche.
+10. Préparer les fichiers résolus.
 
-***Pour fusionner les branches `barnch-1` et `branch-2` dans la branche principale, suivez ces étapes :***
+11. Poursuivre le processus de fusion.
 
-***Assurez-vous que vous êtes sur la branche principale :***
+12. Valider les modifications fusionnées.
 
-Avant de commencer à fusionner, assurez-vous que vous êtes sur la branche principale. Vous pouvez basculer vers la branche principale à l'aide de la commande suivante :
+## Pousser les Modifications vers le Dépôt Distant
 
-```bash
-git checkout main
-```
+13. Pousser les modifications fusionnées vers le dépôt distant.
 
-***Tirez les dernières modifications :***
-
-Il est recommandé de s'assurer que votre branche principale est à jour avec le dépôt distant avant de fusionner des branches. Vous pouvez le faire avec :
-
-```bash
-git pull origin main
-```
-
-***Fusionnez les branches :***
-
-Pour fusionner `barnch-1` dans `main`, utilisez la commande suivante :
-
-```bash
-git merge barnch-1
-```
-
-Ensuite, s'il n'y a pas de conflits, pour fusionner `branch-2` dans `main`, utilisez :
-
-```bash
-git merge hussein
-```
-
-**Résoudre les conflits (le cas échéant) :***
-
-En cas de conflits pendant le processus de fusion, Git s'arrêtera et vous permettra de les résoudre. Vous devrez ouvrir les fichiers en conflit, résoudre les conflits.
-
-**Suivez ces étapes pour résoudre le conflit :***
-
-```html
-<body>
-<<<<<<< HEAD
-  Bonjour, je suis Jalil Betroji, un développeur full stack et stagiaire chez SoliCode.
-=======
-  Hussein ipsum dolor sit amet consectetur adipisicing elit.
->>>>>>> origin/hussein
-  Sed maiores quo debitis harum dolorum, itaque aliquid reiciendis
-  quasi repellendus aliquam alias ipsam eligendi earum voluptate totam! Quos deleniti pariatur nemo?
-  ll
-  lorem
-  MMMM
-</body>
-```
-
-- ***Accepter la modification actuelle*** : Utilisez-la si vous souhaitez conserver la modification actuelle, ignorez la modification entrante.
-- ***Accepter la modification entrante*** : Utilisez-la si vous souhaitez conserver la modification entrante, ignorez la modification actuelle.
-- ***Accepter les deux modifications*** : Utilisez-la si vous souhaitez conserver les deux modifications.
-- ***Comparer les modifications*** : Utilisez-la si vous souhaitez comparer les modifications et voir ce que vous voulez conserver et ce que vous voulez modifier.
-
-Ensuite, préparez les fichiers résolus en utilisant :
-
-```bash
-git add <nom-du-fichier-en-conflit>
-```
-
-Une fois tous les conflits résolus, poursuivez le processus de fusion avec :
-
-```bash
-git merge --continue
-```
-
-***Validez les modifications fusionnées :***
-
-Après avoir résolu les conflits et vous être assuré que tout est comme vous le souhaitez, validez les modifications fusionnées :
-
-```bash
-git commit -m "Fusionner branch-1 et branch-2 dans main"
-```
-
-***Poussez les modifications vers le remote :***
-
-Enfin, poussez les modifications fusionnées vers le dépôt distant :
-
-```bash
-git push origin main
-```
-
-Maintenant, les modifications des branches `bracnh-1` et `branch-2` sont fusionnées dans la branche principale. Assurez-vous de tester soigneusement le code fusionné avant de pousser vers la production.
-
-le cas échéant.
+Assurez-vous de tester minutieusement le code fusionné avant de le déployer en production, le cas échéant.
 
 ## Reference
 
